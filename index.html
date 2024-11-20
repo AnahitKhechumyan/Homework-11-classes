@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <title>Homework 11-extra</title>
+</head>
+<style>
+    body{
+        background-color: #e3e0e0;
+        margin-top: 50px;
+        text-align: center;
+    }
+</style>
+<body>
+    <label style="color: blueviolet; margin-right: 60%;" for="text-input">Enter a numbers:</label>
+    <input style="width: 300px; background-color: white;" type="text" id="text-input">
+    <button type="submit" id="bubble-sort-button">Bubble Sort </button>
+    <button type="submit" id="selection-sort-button">Selection Sort </button>
+    <button type="submit" id="insertion-sort-button">Insertion Sort </button>
+    <button type="submit" id="merge-sort-button">Merge Sort </button>
+    <button onclick="clearInputText()" type="reset"> Previous </button>
+    <div style= "background-color: white;" id="result-display"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
